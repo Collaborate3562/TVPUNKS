@@ -1,0 +1,14 @@
+.newPageBtn{
+    color: white;
+    background-color: #e15d00;
+    text-decoration: none;
+    padding: 6px 8px;
+    font-size: 0.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+}
+.newPageBtn:hover{
+    background-color: #a74500;
+}

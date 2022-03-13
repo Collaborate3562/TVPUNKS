@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+* {
+  scrollbar-color: #CCC !important;
+  scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #CCCCCC;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #AFAFAF;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #6b6b6b;
+}
+::-webkit-scrollbar-track {
+  background: rgba(204, 204, 204, 0.3);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

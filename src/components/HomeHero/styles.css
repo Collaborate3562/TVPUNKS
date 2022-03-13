@@ -1,0 +1,386 @@
+.home-hero{
+  background: url('../../assets/part1/back-01.gif');
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.top-section{
+  
+  box-sizing: border-box;
+  padding: 70px 20px 20px 20px;
+}
+
+.welcome{
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.welcome-title{
+  font-weight: bold;
+  font-size: 50px;
+  color: #29ff34;
+  font-family: 'Open Sans';
+}
+
+.welcome-desc{
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+  color: #FFFFFF;    
+  max-width: 100%;
+}
+
+.bottom-section{
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.sale {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.sale-title{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 61px;
+  color: #29ff34;
+  font-family: 'Open Sans';
+}
+
+.sale-collection{
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.sale-time{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFD029;
+  border-radius: 40px;
+  max-width: 737px;
+  line-height: 1;
+  background-position: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #161131;
+  padding:10px 15px;
+  box-sizing: border-box;
+}
+
+.time-unit {
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.sale-desc {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 30px;
+  color: #A7D5FF;    
+  margin-top: 20px;
+  max-width: 890px;
+}
+
+.sale-desc-link {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s linear;
+}
+
+.sale-desc-link:hover {
+  color: #FFD029;
+}
+
+.join-discord {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 40px;
+  color: #FFFFFF;    
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.join-discord:hover {
+  color:  #fff3b0;  
+}
+
+.join-discord-icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 19px;
+  display: inline-block;
+  background-image: url('../../assets/part1/DiscordNew.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sale-image {
+  width: 100%;
+  margin-bottom: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 100px 0;
+}
+
+.sale-image-wrapper {
+  position: relative;
+  width: 282px;
+  height: 282px;
+}
+
+.sale-image1 {
+  width: 141px;
+  position: absolute;
+  left: 0px;  
+}
+
+.sale-image2 {
+  width: 141px;
+  position: absolute;  
+  right: 0px;
+}
+
+.sale-image3 {
+  width: 141px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.nft-top-section-img{
+  border-radius: 44px;
+  box-shadow: 1px 1px 10px 10px #22fd22;
+}
+
+@media (min-width: 450px) {
+  .sale-image {
+    padding: 0;
+  }
+  .sale-image1{
+    left: -100px;
+    top: -10px;
+  }
+  
+  .sale-image2{
+    top: 65px;
+    right: -95px;
+  }
+  
+  .sale-image3{
+    top: -115px;
+  }
+}
+
+@media (min-width: 576px) {
+  .welcome-title{
+    font-size: 35px;
+  }
+  .sale-time{
+    margin-top: 20px;
+    font-size: 30px;
+    padding:10px 15px;
+    max-width: 250px;
+    border-radius: 25px;
+  }
+  .time-unit{
+    font-size: 13px;
+  }
+  .sale-image1 {
+    left: 0px;
+    top: 50px;
+    width: 150px;
+  }
+  
+  .sale-image2 {
+    top: 75px;
+    right: -25px;
+    width: 150px;
+  }
+  
+  .sale-image3 {
+    top: -32px;
+    left: 84px;
+    width: 150px;
+  }
+  .bottom-section {
+    flex-direction: row;
+    padding-top: 85px;
+  }
+  .sale-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .sale-collection {
+    font-size: 15px;
+  }
+  .sale-desc {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .join-discord {
+    font-size: 14px;
+    line-height: 35px;
+  }
+  .welcome {
+    font-size: 30px;
+  }
+  .welcome-desc{
+    font-size: 15px;
+  }
+  .top-section {
+    padding-top: 50px;
+    
+  }
+  .sale-image {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 993px) {
+  .top-section{
+    
+  }
+  .welcome-title{
+    font-size: 45px;
+  }
+  .welcome {
+    font-size: 42px;
+  }
+  .welcome-desc{
+    font-size: 20px;
+  }
+  .sale-image1 {
+    width: 282px;
+    left: -100px;
+    top: -10px;
+  }
+  .join-discord {
+    font-size: 24px;
+    line-height: 55px;
+  }
+  
+  .sale-image2 {
+    width: 282px;
+    top: 65px;
+    right: -95px;
+  }
+  
+  .sale-image3 {
+    width: 282px;
+    top: -115px;
+    left: 0px;
+  }
+  .welcome-desc {
+    max-width: 420px;
+  }
+  .time-unit{
+    font-size: 25px;
+  }
+  .top-section {
+    padding: 0px 52px;
+    padding-top: 80px;
+    
+  }
+  .bottom-section {
+    padding-left: 52px;
+    padding-top: 85px;
+  }
+  .sale-collection {
+    font-size: 30px;
+  }
+  .sale {
+    width: 50%;
+  }
+  .sale-image {
+    width: 50%;
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
+  .sale-time{
+    margin-top: 35px;
+    font-size: 60px;
+    padding:13px 20px;
+    max-width: 500px;
+    border-radius: 40px;
+  }
+  .sale-desc {
+    margin-top: 35px;
+    font-size: 27px;
+    line-height: 45px;
+  }
+  .sale-title {
+    font-size: 55px;
+    line-height: 31px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .top-section {
+    padding: 0px 52px;
+    padding-top: 129px;
+    
+  }
+  .time-unit{
+    font-size: 12px;
+  }
+  .welcome-desc {
+    font-size: 25.2638px;
+    max-width: 500px;
+  }
+  .sale-collection {
+    font-size: 30.8502px;
+  }
+  .sale-desc {
+    font-size: 20.2638px;
+    margin-top: 40px;
+    line-height: 49px;
+  }
+  .welcome-title {
+    font-size: 85.154px;
+  }
+  .welcome {
+    font-size: 36.8852px;
+  }
+  .sale-title {
+    font-size: 66.2558px;
+  }
+  .join-discord {
+    font-size: 20.8502px;
+  }
+  .join-discord-icon {
+    width: 59px;
+    height: 59px;
+    min-width: 59px;
+  }
+  .sale-time{
+    margin-top: 74px;
+    font-size: 33px;
+    padding:15px 15px;
+    margin-top: 50px;
+    max-width: 430px;
+  }
+}
